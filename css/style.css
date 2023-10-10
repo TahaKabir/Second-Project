@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
 }
 .container{
     width:100%;
@@ -28,7 +28,7 @@ a{
     top:50px;
     width:170px;
     height:45px;
-    background-color:#fff;
+    background-color:aliceblue;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -53,7 +53,7 @@ a{
     font-weight:400;
     letter-spacing:2px;
     font-size:0.8rem;
-    font-family:poppins;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .section1{
     position:absolute;
@@ -71,7 +71,7 @@ a{
 }
 .section1button h1, h2{
     font-weight: bold;
-    font-family: Roboto;
+    font-family:Arial, Helvetica, sans-serif;
     margin:0px;
     line-height: 60px;
     font-size: 4rem;
@@ -111,11 +111,11 @@ span{
 }
 .iconarea{
     position:fixed;
-    left:30px;
-    top:50%;
+    left:50px;
+    top:40%;
     transform:translate(-50%);
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color:aliceblue;
     box-shadow:2px 2px 30px rgba(0,0,0,0,2);
     padding:5px 0px;
     z-index:1;
@@ -131,7 +131,7 @@ span{
     color:rgba(39,39,39,0.80);
 }
 .iconarea a:hover .fa-facebook-f{
-	color: #3b5998;
+	color: #285ccc;
 }
 .iconarea a:hover .fa-twitter{
 	color: #00acee ;
